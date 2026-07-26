@@ -45,7 +45,7 @@ export default function Category() {
                         </div>
 
                         <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="#" className="hover:px-2 transition-all duration-200">Laptops</Link>
+                            <Link href="/category/laptops" className="hover:px-2 transition-all duration-200">Laptops</Link>
                             <ChevronRight />
                         </div>
 
@@ -95,16 +95,16 @@ export default function Category() {
                         <span className="bg-amber-300 px-1 text-[10px]">New</span>
                     </button>
 
-                    <Link href="#">Mobile Phones</Link>
-                    <Link href="#">Laptops</Link>
-                    <Link href="#">Earbuds</Link>
-                    <Link href="#">Tablets</Link>
-                    <Link href="#">Speakers</Link>
-                    <Link href="#">Smartwatches</Link>
-                    <Link href="#">PC Build</Link>
-                    <Link href="#">PC Components</Link>
-                    <Link href="#">Gaming</Link>
-                    <Link href="#">Accessories</Link>
+                    <Link href="/category/mobile-phones">Mobile Phones</Link>
+                    <Link href="/category/laptops">Laptops</Link>
+                    <Link href="/category/earbuds">Earbuds</Link>
+                    <Link href="/category/tablets">Tablets</Link>
+                    <Link href="/category/speakers">Speakers</Link>
+                    <Link href="/category/smartwatches">Smartwatches</Link>
+                    <Link href="/category/pc-build">PC Build</Link>
+                    <Link href="/category/pc-build">PC Components</Link>
+                    <Link href="/category/gaming">Gaming</Link>
+                    <Link href="/category/accessories">Accessories</Link>
                 </div>
             </div>
         </div>

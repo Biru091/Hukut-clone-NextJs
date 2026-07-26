@@ -1,0 +1,2051 @@
+{
+  "categories": [
+    {
+      "id": "C001",
+      "name": "Mobile Phones",
+      "slug": "mobile-phones",
+      "href": "#",
+      "description": "Smartphones from top brands with the latest features",
+      "icon": {
+        "url": "https://images.example.com/products/icons/mobile-phones-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Mobile Phones on a plain white background"
+      },
+      "products": [
+        {
+          "id": "MP001",
+          "name": "iPhone 15 Pro",
+          "brand": "Apple",
+          "price": 999.0,
+          "color": "Titanium Blue",
+          "storage_options_gb": [
+            128,
+            256,
+            512,
+            1024
+          ],
+          "display": "6.1-inch Super Retina XDR OLED",
+          "processor": "A17 Pro",
+          "camera": "48MP+12MP+12MP",
+          "battery_life_hours": 23,
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/iphone-15-pro-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Iphone 15 Pro on a plain white background"
+          }
+        },
+        {
+          "id": "MP002",
+          "name": "Galaxy S24 Ultra",
+          "brand": "Samsung",
+          "price": 1299.0,
+          "color": "Titanium Black",
+          "storage_options_gb": [
+            256,
+            512,
+            1024
+          ],
+          "display": "6.8-inch Dynamic AMOLED 2X",
+          "processor": "Snapdragon 8 Gen 3",
+          "camera": "200MP+12MP+50MP+10MP",
+          "battery_life_hours": 27,
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/galaxy-s24-ultra-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Galaxy S24 Ultra on a plain white background"
+          }
+        },
+        {
+          "id": "MP003",
+          "name": "Pixel 8 Pro",
+          "brand": "Google",
+          "price": 999.0,
+          "color": "Obsidian",
+          "storage_options_gb": [
+            128,
+            256,
+            512
+          ],
+          "display": "6.7-inch LTPO OLED",
+          "processor": "Google Tensor G3",
+          "camera": "50MP+48MP+48MP",
+          "battery_life_hours": 24,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/pixel-8-pro-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Pixel 8 Pro on a plain white background"
+          }
+        },
+        {
+          "id": "MP004",
+          "name": "OnePlus 12",
+          "brand": "OnePlus",
+          "price": 799.0,
+          "color": "Flowy Emerald",
+          "storage_options_gb": [
+            256,
+            512
+          ],
+          "display": "6.82-inch LTPO AMOLED",
+          "processor": "Snapdragon 8 Gen 3",
+          "camera": "50MP+64MP+48MP",
+          "battery_life_hours": 26,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/oneplus-12-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Oneplus 12 on a plain white background"
+          }
+        },
+        {
+          "id": "MP005",
+          "name": "Xiaomi 14",
+          "brand": "Xiaomi",
+          "price": 749.0,
+          "color": "Jade Green",
+          "storage_options_gb": [
+            256,
+            512
+          ],
+          "display": "6.36-inch LTPO AMOLED",
+          "processor": "Snapdragon 8 Gen 3",
+          "camera": "50MP+50MP+50MP Leica",
+          "battery_life_hours": 22,
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/xiaomi-14-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Xiaomi 14 on a plain white background"
+          }
+        },
+        {
+          "id": "MP006",
+          "name": "Galaxy Z Fold 6",
+          "brand": "Samsung",
+          "price": 1899.0,
+          "color": "Silver Shadow",
+          "storage_options_gb": [
+            256,
+            512,
+            1024
+          ],
+          "display": "7.6-inch foldable Dynamic AMOLED",
+          "processor": "Snapdragon 8 Gen 3",
+          "camera": "50MP+12MP+10MP",
+          "battery_life_hours": 25,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/galaxy-z-fold-6-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Galaxy Z Fold 6 on a plain white background"
+          }
+        },
+        {
+          "id": "MP007",
+          "name": "iPhone 15",
+          "brand": "Apple",
+          "price": 799.0,
+          "color": "Pink",
+          "storage_options_gb": [
+            128,
+            256,
+            512
+          ],
+          "display": "6.1-inch Super Retina XDR OLED",
+          "processor": "A16 Bionic",
+          "camera": "48MP+12MP",
+          "battery_life_hours": 20,
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/iphone-15-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Iphone 15 on a plain white background"
+          }
+        },
+        {
+          "id": "MP008",
+          "name": "Nothing Phone 2",
+          "brand": "Nothing",
+          "price": 599.0,
+          "color": "White",
+          "storage_options_gb": [
+            128,
+            256,
+            512
+          ],
+          "display": "6.7-inch LTPO AMOLED",
+          "processor": "Snapdragon 8+ Gen 1",
+          "camera": "50MP+50MP",
+          "battery_life_hours": 21,
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/nothing-phone-2-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Nothing Phone 2 on a plain white background"
+          }
+        },
+        {
+          "id": "MP009",
+          "name": "Moto Edge 50 Pro",
+          "brand": "Motorola",
+          "price": 599.0,
+          "color": "Luxe Lavender",
+          "storage_options_gb": [
+            256,
+            512
+          ],
+          "display": "6.7-inch pOLED",
+          "processor": "Snapdragon 7 Gen 3",
+          "camera": "50MP+13MP+10MP",
+          "battery_life_hours": 22,
+          "rating": 4.2,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/moto-edge-50-pro-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Moto Edge 50 Pro on a plain white background"
+          }
+        },
+        {
+          "id": "MP010",
+          "name": "ASUS Zenfone 11 Ultra",
+          "brand": "ASUS",
+          "price": 899.0,
+          "color": "Skyline Blue",
+          "storage_options_gb": [
+            256,
+            512
+          ],
+          "display": "6.78-inch AMOLED",
+          "processor": "Snapdragon 8 Gen 3",
+          "camera": "50MP+13MP+32MP",
+          "battery_life_hours": 24,
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/asus-zenfone-11-ultra-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Asus Zenfone 11 Ultra on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "name": "Laptops",
+      "slug": "laptops",
+      "href": "#",
+      "description": "Laptops for work, gaming, and everyday use",
+      "icon": {
+        "url": "https://images.example.com/products/icons/laptops-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Laptops on a plain white background"
+      },
+      "products": [
+        {
+          "id": "LP001",
+          "name": "MacBook Pro 14 (M3 Pro)",
+          "brand": "Apple",
+          "price": 1999.0,
+          "color": "Space Black",
+          "ram_gb": 18,
+          "storage_gb": 512,
+          "storage_type": "SSD",
+          "cpu": "Apple M3 Pro",
+          "gpu": "Integrated 14-core GPU",
+          "display": "14.2-inch Liquid Retina XDR",
+          "battery_life_hours": 18,
+          "rating": 4.9,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/macbook-pro-14-m3-pro-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Macbook Pro 14 M3 Pro on a plain white background"
+          }
+        },
+        {
+          "id": "LP002",
+          "name": "Dell XPS 15",
+          "brand": "Dell",
+          "price": 1799.0,
+          "color": "Platinum Silver",
+          "ram_gb": 16,
+          "storage_gb": 1024,
+          "storage_type": "SSD",
+          "cpu": "Intel Core i7-13700H",
+          "gpu": "NVIDIA RTX 4050",
+          "display": "15.6-inch OLED 3.5K",
+          "battery_life_hours": 12,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/dell-xps-15-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Dell Xps 15 on a plain white background"
+          }
+        },
+        {
+          "id": "LP003",
+          "name": "ThinkPad X1 Carbon Gen 12",
+          "brand": "Lenovo",
+          "price": 1749.0,
+          "color": "Black",
+          "ram_gb": 16,
+          "storage_gb": 512,
+          "storage_type": "SSD",
+          "cpu": "Intel Core Ultra 7",
+          "gpu": "Intel Arc Graphics",
+          "display": "14-inch 2.8K OLED",
+          "battery_life_hours": 15,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/thinkpad-x1-carbon-gen-12-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Thinkpad X1 Carbon Gen 12 on a plain white background"
+          }
+        },
+        {
+          "id": "LP004",
+          "name": "ROG Zephyrus G14",
+          "brand": "ASUS",
+          "price": 1649.0,
+          "color": "Eclipse Gray",
+          "ram_gb": 16,
+          "storage_gb": 1024,
+          "storage_type": "SSD",
+          "cpu": "AMD Ryzen 9 8945HS",
+          "gpu": "NVIDIA RTX 4060",
+          "display": "14-inch QHD+ 165Hz",
+          "battery_life_hours": 10,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/rog-zephyrus-g14-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Rog Zephyrus G14 on a plain white background"
+          }
+        },
+        {
+          "id": "LP005",
+          "name": "Surface Laptop 6",
+          "brand": "Microsoft",
+          "price": 1399.0,
+          "color": "Sapphire",
+          "ram_gb": 16,
+          "storage_gb": 512,
+          "storage_type": "SSD",
+          "cpu": "Intel Core Ultra 7",
+          "gpu": "Intel Arc Graphics",
+          "display": "13.5-inch PixelSense",
+          "battery_life_hours": 19,
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/surface-laptop-6-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Surface Laptop 6 on a plain white background"
+          }
+        },
+        {
+          "id": "LP006",
+          "name": "HP Spectre x360 14",
+          "brand": "HP",
+          "price": 1549.0,
+          "color": "Nightfall Black",
+          "ram_gb": 16,
+          "storage_gb": 1024,
+          "storage_type": "SSD",
+          "cpu": "Intel Core Ultra 7",
+          "gpu": "Intel Arc Graphics",
+          "display": "14-inch 2.8K OLED touch",
+          "battery_life_hours": 13,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/hp-spectre-x360-14-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Hp Spectre X360 14 on a plain white background"
+          }
+        },
+        {
+          "id": "LP007",
+          "name": "MacBook Air 15 (M3)",
+          "brand": "Apple",
+          "price": 1299.0,
+          "color": "Midnight",
+          "ram_gb": 8,
+          "storage_gb": 256,
+          "storage_type": "SSD",
+          "cpu": "Apple M3",
+          "gpu": "Integrated 10-core GPU",
+          "display": "15.3-inch Liquid Retina",
+          "battery_life_hours": 18,
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/macbook-air-15-m3-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Macbook Air 15 M3 on a plain white background"
+          }
+        },
+        {
+          "id": "LP008",
+          "name": "Legion Pro 7i",
+          "brand": "Lenovo",
+          "price": 2299.0,
+          "color": "Onyx Grey",
+          "ram_gb": 32,
+          "storage_gb": 1024,
+          "storage_type": "SSD",
+          "cpu": "Intel Core i9-14900HX",
+          "gpu": "NVIDIA RTX 4080",
+          "display": "16-inch WQXGA 240Hz",
+          "battery_life_hours": 8,
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/legion-pro-7i-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Legion Pro 7I on a plain white background"
+          }
+        },
+        {
+          "id": "LP009",
+          "name": "Acer Swift Go 14",
+          "brand": "Acer",
+          "price": 899.0,
+          "color": "Pure Silver",
+          "ram_gb": 16,
+          "storage_gb": 512,
+          "storage_type": "SSD",
+          "cpu": "Intel Core Ultra 5",
+          "gpu": "Intel Arc Graphics",
+          "display": "14-inch 2.8K OLED",
+          "battery_life_hours": 14,
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/acer-swift-go-14-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Acer Swift Go 14 on a plain white background"
+          }
+        },
+        {
+          "id": "LP010",
+          "name": "Framework Laptop 13",
+          "brand": "Framework",
+          "price": 1049.0,
+          "color": "Silver",
+          "ram_gb": 16,
+          "storage_gb": 512,
+          "storage_type": "SSD",
+          "cpu": "Intel Core Ultra 5",
+          "gpu": "Intel Arc Graphics",
+          "display": "13.5-inch 2256x1504",
+          "battery_life_hours": 11,
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/framework-laptop-13-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Framework Laptop 13 on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "name": "Earbuds",
+      "slug": "earbuds",
+      "href": "#",
+      "description": "Wireless and wired earbuds for every lifestyle",
+      "icon": {
+        "url": "https://images.example.com/products/icons/earbuds-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Earbuds on a plain white background"
+      },
+      "products": [
+        {
+          "id": "EB001",
+          "name": "AirPods Pro 2",
+          "brand": "Apple",
+          "price": 249.0,
+          "color": "White",
+          "battery_life_hours": 6,
+          "case_battery_hours": 30,
+          "anc": true,
+          "water_resistance": "IP54",
+          "connectivity": "Bluetooth 5.3",
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/airpods-pro-2-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Airpods Pro 2 on a plain white background"
+          }
+        },
+        {
+          "id": "EB002",
+          "name": "Galaxy Buds3 Pro",
+          "brand": "Samsung",
+          "price": 249.99,
+          "color": "Silver",
+          "battery_life_hours": 6,
+          "case_battery_hours": 26,
+          "anc": true,
+          "water_resistance": "IP57",
+          "connectivity": "Bluetooth 5.4",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/galaxy-buds3-pro-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Galaxy Buds3 Pro on a plain white background"
+          }
+        },
+        {
+          "id": "EB003",
+          "name": "WF-1000XM5",
+          "brand": "Sony",
+          "price": 299.99,
+          "color": "Black",
+          "battery_life_hours": 8,
+          "case_battery_hours": 24,
+          "anc": true,
+          "water_resistance": "IPX4",
+          "connectivity": "Bluetooth 5.3",
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/wf-1000xm5-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Wf 1000Xm5 on a plain white background"
+          }
+        },
+        {
+          "id": "EB004",
+          "name": "QuietComfort Earbuds II",
+          "brand": "Bose",
+          "price": 279.0,
+          "color": "Soapstone",
+          "battery_life_hours": 6,
+          "case_battery_hours": 24,
+          "anc": true,
+          "water_resistance": "IPX4",
+          "connectivity": "Bluetooth 5.3",
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/quietcomfort-earbuds-ii-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Quietcomfort Earbuds Ii on a plain white background"
+          }
+        },
+        {
+          "id": "EB005",
+          "name": "Pixel Buds Pro 2",
+          "brand": "Google",
+          "price": 229.0,
+          "color": "Porcelain",
+          "battery_life_hours": 8,
+          "case_battery_hours": 30,
+          "anc": true,
+          "water_resistance": "IP54",
+          "connectivity": "Bluetooth 5.3",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/pixel-buds-pro-2-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Pixel Buds Pro 2 on a plain white background"
+          }
+        },
+        {
+          "id": "EB006",
+          "name": "Nothing Ear",
+          "brand": "Nothing",
+          "price": 149.0,
+          "color": "White",
+          "battery_life_hours": 5.5,
+          "case_battery_hours": 22.5,
+          "anc": true,
+          "water_resistance": "IP54",
+          "connectivity": "Bluetooth 5.3",
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/nothing-ear-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Nothing Ear on a plain white background"
+          }
+        },
+        {
+          "id": "EB007",
+          "name": "Momentum True Wireless 4",
+          "brand": "Sennheiser",
+          "price": 299.95,
+          "color": "Black Copper",
+          "battery_life_hours": 7,
+          "case_battery_hours": 28,
+          "anc": true,
+          "water_resistance": "IPX4",
+          "connectivity": "Bluetooth 5.4",
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/momentum-true-wireless-4-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Momentum True Wireless 4 on a plain white background"
+          }
+        },
+        {
+          "id": "EB008",
+          "name": "Beats Fit Pro",
+          "brand": "Beats",
+          "price": 199.99,
+          "color": "Beats Black",
+          "battery_life_hours": 6,
+          "case_battery_hours": 24,
+          "anc": true,
+          "water_resistance": "IPX4",
+          "connectivity": "Bluetooth 5.0",
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/beats-fit-pro-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Beats Fit Pro on a plain white background"
+          }
+        },
+        {
+          "id": "EB009",
+          "name": "Jabra Elite 10",
+          "brand": "Jabra",
+          "price": 249.99,
+          "color": "Gloss Black",
+          "battery_life_hours": 6,
+          "case_battery_hours": 27,
+          "anc": true,
+          "water_resistance": "IP57",
+          "connectivity": "Bluetooth 5.3",
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/jabra-elite-10-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Jabra Elite 10 on a plain white background"
+          }
+        },
+        {
+          "id": "EB010",
+          "name": "Anker Soundcore Liberty 4",
+          "brand": "Anker",
+          "price": 99.99,
+          "color": "Midnight Black",
+          "battery_life_hours": 9,
+          "case_battery_hours": 28,
+          "anc": true,
+          "water_resistance": "IPX4",
+          "connectivity": "Bluetooth 5.3",
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/anker-soundcore-liberty-4-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Anker Soundcore Liberty 4 on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "name": "Tablets",
+      "slug": "tablets",
+      "href": "#",
+      "description": "Tablets for productivity, creativity, and entertainment",
+      "icon": {
+        "url": "https://images.example.com/products/icons/tablets-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Tablets on a plain white background"
+      },
+      "products": [
+        {
+          "id": "TB001",
+          "name": "iPad Pro 13 (M4)",
+          "brand": "Apple",
+          "price": 1299.0,
+          "color": "Space Black",
+          "storage_gb": 256,
+          "display": "13-inch Ultra Retina XDR OLED",
+          "processor": "Apple M4",
+          "battery_life_hours": 10,
+          "rating": 4.9,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/ipad-pro-13-m4-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Ipad Pro 13 M4 on a plain white background"
+          }
+        },
+        {
+          "id": "TB002",
+          "name": "Galaxy Tab S9 Ultra",
+          "brand": "Samsung",
+          "price": 1199.99,
+          "color": "Graphite",
+          "storage_gb": 256,
+          "display": "14.6-inch Dynamic AMOLED 2X",
+          "processor": "Snapdragon 8 Gen 2",
+          "battery_life_hours": 13,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/galaxy-tab-s9-ultra-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Galaxy Tab S9 Ultra on a plain white background"
+          }
+        },
+        {
+          "id": "TB003",
+          "name": "iPad Air (M2)",
+          "brand": "Apple",
+          "price": 599.0,
+          "color": "Blue",
+          "storage_gb": 128,
+          "display": "11-inch Liquid Retina",
+          "processor": "Apple M2",
+          "battery_life_hours": 10,
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/ipad-air-m2-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Ipad Air M2 on a plain white background"
+          }
+        },
+        {
+          "id": "TB004",
+          "name": "Xiaomi Pad 6 Pro",
+          "brand": "Xiaomi",
+          "price": 499.0,
+          "color": "Graphite Gray",
+          "storage_gb": 256,
+          "display": "11-inch 144Hz LCD",
+          "processor": "Snapdragon 8+ Gen 1",
+          "battery_life_hours": 11,
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/xiaomi-pad-6-pro-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Xiaomi Pad 6 Pro on a plain white background"
+          }
+        },
+        {
+          "id": "TB005",
+          "name": "Galaxy Tab S9 FE",
+          "brand": "Samsung",
+          "price": 449.99,
+          "color": "Silver",
+          "storage_gb": 128,
+          "display": "10.9-inch LCD",
+          "processor": "Exynos 1380",
+          "battery_life_hours": 12,
+          "rating": 4.2,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/galaxy-tab-s9-fe-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Galaxy Tab S9 Fe on a plain white background"
+          }
+        },
+        {
+          "id": "TB006",
+          "name": "Lenovo Tab P12",
+          "brand": "Lenovo",
+          "price": 399.99,
+          "color": "Storm Grey",
+          "storage_gb": 256,
+          "display": "12.7-inch 2.5K LCD",
+          "processor": "MediaTek Kompanio 1300T",
+          "battery_life_hours": 12,
+          "rating": 4.1,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/lenovo-tab-p12-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Lenovo Tab P12 on a plain white background"
+          }
+        },
+        {
+          "id": "TB007",
+          "name": "iPad (10th Gen)",
+          "brand": "Apple",
+          "price": 349.0,
+          "color": "Silver",
+          "storage_gb": 64,
+          "display": "10.9-inch Liquid Retina",
+          "processor": "A14 Bionic",
+          "battery_life_hours": 10,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/ipad-10th-gen-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Ipad 10Th Gen on a plain white background"
+          }
+        },
+        {
+          "id": "TB008",
+          "name": "Surface Pro 10",
+          "brand": "Microsoft",
+          "price": 999.0,
+          "color": "Platinum",
+          "storage_gb": 256,
+          "display": "13-inch PixelSense Flow",
+          "processor": "Intel Core Ultra 5",
+          "battery_life_hours": 13,
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/surface-pro-10-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Surface Pro 10 on a plain white background"
+          }
+        },
+        {
+          "id": "TB009",
+          "name": "Galaxy Tab A9+",
+          "brand": "Samsung",
+          "price": 219.99,
+          "color": "Navy",
+          "storage_gb": 64,
+          "display": "11-inch LCD 90Hz",
+          "processor": "Snapdragon 695",
+          "battery_life_hours": 11,
+          "rating": 4.0,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/galaxy-tab-a9plus-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Galaxy Tab A9Plus on a plain white background"
+          }
+        },
+        {
+          "id": "TB010",
+          "name": "Honor Pad 9",
+          "brand": "Honor",
+          "price": 329.99,
+          "color": "Cyan Lake",
+          "storage_gb": 128,
+          "display": "12.1-inch 2.5K 120Hz",
+          "processor": "Snapdragon 6 Gen 1",
+          "battery_life_hours": 11,
+          "rating": 4.1,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/honor-pad-9-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Honor Pad 9 on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "name": "Speakers",
+      "slug": "speakers",
+      "href": "#",
+      "description": "Portable and home speakers for immersive sound",
+      "icon": {
+        "url": "https://images.example.com/products/icons/speakers-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Speakers on a plain white background"
+      },
+      "products": [
+        {
+          "id": "SP001",
+          "name": "HomePod (2nd Gen)",
+          "brand": "Apple",
+          "price": 299.0,
+          "color": "White",
+          "battery_life_hours": null,
+          "waterproof": false,
+          "connectivity": "Wi-Fi, Bluetooth 5.0",
+          "power_watts": null,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/homepod-2nd-gen-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Homepod 2Nd Gen on a plain white background"
+          }
+        },
+        {
+          "id": "SP002",
+          "name": "SRS-XB100",
+          "brand": "Sony",
+          "price": 59.99,
+          "color": "Black",
+          "battery_life_hours": 16,
+          "waterproof": true,
+          "connectivity": "Bluetooth 5.3",
+          "power_watts": 5,
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/srs-xb100-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Srs Xb100 on a plain white background"
+          }
+        },
+        {
+          "id": "SP003",
+          "name": "Flip 6",
+          "brand": "JBL",
+          "price": 129.95,
+          "color": "Blue",
+          "battery_life_hours": 12,
+          "waterproof": true,
+          "connectivity": "Bluetooth 5.1",
+          "power_watts": 30,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/flip-6-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Flip 6 on a plain white background"
+          }
+        },
+        {
+          "id": "SP004",
+          "name": "SoundLink Flex",
+          "brand": "Bose",
+          "price": 149.0,
+          "color": "Stone Blue",
+          "battery_life_hours": 12,
+          "waterproof": true,
+          "connectivity": "Bluetooth 5.1",
+          "power_watts": 25,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/soundlink-flex-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Soundlink Flex on a plain white background"
+          }
+        },
+        {
+          "id": "SP005",
+          "name": "Charge 5",
+          "brand": "JBL",
+          "price": 179.95,
+          "color": "Grey",
+          "battery_life_hours": 20,
+          "waterproof": true,
+          "connectivity": "Bluetooth 5.1",
+          "power_watts": 40,
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/charge-5-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Charge 5 on a plain white background"
+          }
+        },
+        {
+          "id": "SP006",
+          "name": "Soundcore Motion+",
+          "brand": "Anker",
+          "price": 99.99,
+          "color": "Black",
+          "battery_life_hours": 12,
+          "waterproof": true,
+          "connectivity": "Bluetooth 5.0",
+          "power_watts": 30,
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/soundcore-motionplus-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Soundcore Motionplus on a plain white background"
+          }
+        },
+        {
+          "id": "SP007",
+          "name": "Beosound A1 (2nd Gen)",
+          "brand": "Bang & Olufsen",
+          "price": 249.0,
+          "color": "Grey Mist",
+          "battery_life_hours": 18,
+          "waterproof": true,
+          "connectivity": "Bluetooth 5.1",
+          "power_watts": 50,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/beosound-a1-2nd-gen-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Beosound A1 2Nd Gen on a plain white background"
+          }
+        },
+        {
+          "id": "SP008",
+          "name": "Echo Dot (5th Gen)",
+          "brand": "Amazon",
+          "price": 49.99,
+          "color": "Charcoal",
+          "battery_life_hours": null,
+          "waterproof": false,
+          "connectivity": "Wi-Fi, Bluetooth",
+          "power_watts": null,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/echo-dot-5th-gen-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Echo Dot 5Th Gen on a plain white background"
+          }
+        },
+        {
+          "id": "SP009",
+          "name": "Nest Audio",
+          "brand": "Google",
+          "price": 99.0,
+          "color": "Chalk",
+          "battery_life_hours": null,
+          "waterproof": false,
+          "connectivity": "Wi-Fi",
+          "power_watts": null,
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/nest-audio-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Nest Audio on a plain white background"
+          }
+        },
+        {
+          "id": "SP010",
+          "name": "PartyBox On-The-Go",
+          "brand": "JBL",
+          "price": 299.95,
+          "color": "Black",
+          "battery_life_hours": 18,
+          "waterproof": false,
+          "connectivity": "Bluetooth 5.1",
+          "power_watts": 100,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/partybox-on-the-go-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Partybox On The Go on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "name": "Smartwatches",
+      "slug": "smartwatches",
+      "href": "#",
+      "description": "Smartwatches and fitness trackers to stay connected",
+      "icon": {
+        "url": "https://images.example.com/products/icons/smartwatches-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Smartwatches on a plain white background"
+      },
+      "products": [
+        {
+          "id": "SW001",
+          "name": "Apple Watch Series 10",
+          "brand": "Apple",
+          "price": 399.0,
+          "color": "Jet Black",
+          "display": "1.96-inch LTPO OLED",
+          "battery_life_days": 1,
+          "water_resistance": "50m",
+          "gps": true,
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/apple-watch-series-10-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Apple Watch Series 10 on a plain white background"
+          }
+        },
+        {
+          "id": "SW002",
+          "name": "Galaxy Watch7",
+          "brand": "Samsung",
+          "price": 299.99,
+          "color": "Green",
+          "display": "1.5-inch Super AMOLED",
+          "battery_life_days": 2,
+          "water_resistance": "5ATM+IP68",
+          "gps": true,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/galaxy-watch7-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Galaxy Watch7 on a plain white background"
+          }
+        },
+        {
+          "id": "SW003",
+          "name": "Pixel Watch 3",
+          "brand": "Google",
+          "price": 349.99,
+          "color": "Obsidian",
+          "display": "1.4-inch AMOLED",
+          "battery_life_days": 1,
+          "water_resistance": "5ATM+IP68",
+          "gps": true,
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/pixel-watch-3-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Pixel Watch 3 on a plain white background"
+          }
+        },
+        {
+          "id": "SW004",
+          "name": "Watch Ultra 2",
+          "brand": "Apple",
+          "price": 799.0,
+          "color": "Titanium",
+          "display": "1.92-inch LTPO OLED",
+          "battery_life_days": 3,
+          "water_resistance": "100m",
+          "gps": true,
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/watch-ultra-2-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Watch Ultra 2 on a plain white background"
+          }
+        },
+        {
+          "id": "SW005",
+          "name": "Venu 3",
+          "brand": "Garmin",
+          "price": 449.99,
+          "color": "Black Slate",
+          "display": "1.4-inch AMOLED",
+          "battery_life_days": 14,
+          "water_resistance": "5ATM",
+          "gps": true,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/venu-3-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Venu 3 on a plain white background"
+          }
+        },
+        {
+          "id": "SW006",
+          "name": "Watch GT 5",
+          "brand": "Huawei",
+          "price": 229.99,
+          "color": "Green",
+          "display": "1.43-inch AMOLED",
+          "battery_life_days": 7,
+          "water_resistance": "5ATM",
+          "gps": true,
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/watch-gt-5-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Watch Gt 5 on a plain white background"
+          }
+        },
+        {
+          "id": "SW007",
+          "name": "Amazfit GTR 4",
+          "brand": "Amazfit",
+          "price": 199.99,
+          "color": "Black",
+          "display": "1.43-inch AMOLED",
+          "battery_life_days": 14,
+          "water_resistance": "5ATM",
+          "gps": true,
+          "rating": 4.2,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/amazfit-gtr-4-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Amazfit Gtr 4 on a plain white background"
+          }
+        },
+        {
+          "id": "SW008",
+          "name": "Fenix 7",
+          "brand": "Garmin",
+          "price": 699.99,
+          "color": "Slate Grey",
+          "display": "1.3-inch MIP",
+          "battery_life_days": 18,
+          "water_resistance": "10ATM",
+          "gps": true,
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/fenix-7-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Fenix 7 on a plain white background"
+          }
+        },
+        {
+          "id": "SW009",
+          "name": "Watch Series SE (2nd Gen)",
+          "brand": "Apple",
+          "price": 249.0,
+          "color": "Starlight",
+          "display": "1.78-inch LTPO OLED",
+          "battery_life_days": 1,
+          "water_resistance": "50m",
+          "gps": true,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/watch-series-se-2nd-gen-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Watch Series Se 2Nd Gen on a plain white background"
+          }
+        },
+        {
+          "id": "SW010",
+          "name": "Galaxy Watch FE",
+          "brand": "Samsung",
+          "price": 199.99,
+          "color": "Black",
+          "display": "1.2-inch Super AMOLED",
+          "battery_life_days": 1,
+          "water_resistance": "5ATM+IP68",
+          "gps": true,
+          "rating": 4.2,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/galaxy-watch-fe-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Galaxy Watch Fe on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "name": "PC Build",
+      "slug": "pc-build",
+      "href": "#",
+      "description": "Custom PC builds tailored to your needs",
+      "icon": {
+        "url": "https://images.example.com/products/icons/pc-build-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Pc Build on a plain white background"
+      },
+      "products": [
+        {
+          "id": "PB001",
+          "name": "Ryzen 9 Gaming Powerhouse",
+          "brand": "Custom",
+          "price": 2499.0,
+          "cpu": "AMD Ryzen 9 7950X3D",
+          "gpu": "NVIDIA RTX 4080 Super",
+          "ram_gb": 32,
+          "storage": "2TB NVMe SSD",
+          "case": "Mid Tower ATX",
+          "psu_watts": 850,
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/ryzen-9-gaming-powerhouse-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Ryzen 9 Gaming Powerhouse on a plain white background"
+          }
+        },
+        {
+          "id": "PB002",
+          "name": "Intel Creator Workstation",
+          "brand": "Custom",
+          "price": 2899.0,
+          "cpu": "Intel Core i9-14900K",
+          "gpu": "NVIDIA RTX 4090",
+          "ram_gb": 64,
+          "storage": "4TB NVMe SSD",
+          "case": "Full Tower ATX",
+          "psu_watts": 1000,
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/intel-creator-workstation-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Intel Creator Workstation on a plain white background"
+          }
+        },
+        {
+          "id": "PB003",
+          "name": "Budget Esports Rig",
+          "brand": "Custom",
+          "price": 899.0,
+          "cpu": "AMD Ryzen 5 7600",
+          "gpu": "NVIDIA RTX 4060",
+          "ram_gb": 16,
+          "storage": "1TB NVMe SSD",
+          "case": "Mini Tower mATX",
+          "psu_watts": 550,
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/budget-esports-rig-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Budget Esports Rig on a plain white background"
+          }
+        },
+        {
+          "id": "PB004",
+          "name": "Mid-Range Streaming Build",
+          "brand": "Custom",
+          "price": 1599.0,
+          "cpu": "Intel Core i7-14700K",
+          "gpu": "NVIDIA RTX 4070 Ti",
+          "ram_gb": 32,
+          "storage": "2TB NVMe SSD",
+          "case": "Mid Tower ATX",
+          "psu_watts": 750,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/mid-range-streaming-build-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Mid Range Streaming Build on a plain white background"
+          }
+        },
+        {
+          "id": "PB005",
+          "name": "Compact SFF Build",
+          "brand": "Custom",
+          "price": 1799.0,
+          "cpu": "AMD Ryzen 7 7800X3D",
+          "gpu": "NVIDIA RTX 4070",
+          "ram_gb": 32,
+          "storage": "1TB NVMe SSD",
+          "case": "Mini-ITX SFF",
+          "psu_watts": 650,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/compact-sff-build-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Compact Sff Build on a plain white background"
+          }
+        },
+        {
+          "id": "PB006",
+          "name": "Entry-Level Office/Gaming",
+          "brand": "Custom",
+          "price": 649.0,
+          "cpu": "AMD Ryzen 5 5600",
+          "gpu": "NVIDIA GTX 1660 Super",
+          "ram_gb": 16,
+          "storage": "512GB NVMe SSD",
+          "case": "Mid Tower ATX",
+          "psu_watts": 500,
+          "rating": 4.1,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/entry-level-office/gaming-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Entry Level Office/Gaming on a plain white background"
+          }
+        },
+        {
+          "id": "PB007",
+          "name": "Extreme Overclocker Build",
+          "brand": "Custom",
+          "price": 3499.0,
+          "cpu": "Intel Core i9-14900KS",
+          "gpu": "NVIDIA RTX 4090",
+          "ram_gb": 64,
+          "storage": "4TB NVMe SSD",
+          "case": "Full Tower ATX with custom loop",
+          "psu_watts": 1200,
+          "rating": 4.9,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/extreme-overclocker-build-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Extreme Overclocker Build on a plain white background"
+          }
+        },
+        {
+          "id": "PB008",
+          "name": "Silent Home Theater PC",
+          "brand": "Custom",
+          "price": 999.0,
+          "cpu": "Intel Core i5-14400",
+          "gpu": "Integrated Intel UHD 730",
+          "ram_gb": 16,
+          "storage": "1TB NVMe SSD",
+          "case": "HTPC Slim Case",
+          "psu_watts": 450,
+          "rating": 4.2,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/silent-home-theater-pc-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Silent Home Theater Pc on a plain white background"
+          }
+        },
+        {
+          "id": "PB009",
+          "name": "AMD All-Red Build",
+          "brand": "Custom",
+          "price": 1699.0,
+          "cpu": "AMD Ryzen 7 7700X",
+          "gpu": "AMD Radeon RX 7800 XT",
+          "ram_gb": 32,
+          "storage": "2TB NVMe SSD",
+          "case": "Mid Tower ATX",
+          "psu_watts": 750,
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/amd-all-red-build-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Amd All Red Build on a plain white background"
+          }
+        },
+        {
+          "id": "PB010",
+          "name": "VR-Ready Build",
+          "brand": "Custom",
+          "price": 1899.0,
+          "cpu": "Intel Core i7-14700K",
+          "gpu": "NVIDIA RTX 4070 Super",
+          "ram_gb": 32,
+          "storage": "2TB NVMe SSD",
+          "case": "Mid Tower ATX",
+          "psu_watts": 750,
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/vr-ready-build-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Vr Ready Build on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "name": "PC Components",
+      "slug": "pc-components",
+      "href": "#",
+      "description": "CPUs, GPUs, motherboards, and other core components",
+      "icon": {
+        "url": "https://images.example.com/products/icons/pc-components-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Pc Components on a plain white background"
+      },
+      "products": [
+        {
+          "id": "PC001",
+          "name": "Ryzen 9 7950X3D",
+          "brand": "AMD",
+          "price": 599.0,
+          "type": "CPU",
+          "specs": "16-core, 32-thread, 5.7GHz boost",
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/ryzen-9-7950x3d-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Ryzen 9 7950X3D on a plain white background"
+          }
+        },
+        {
+          "id": "PC002",
+          "name": "Core i9-14900K",
+          "brand": "Intel",
+          "price": 589.0,
+          "type": "CPU",
+          "specs": "24-core, 32-thread, 6.0GHz boost",
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/core-i9-14900k-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Core I9 14900K on a plain white background"
+          }
+        },
+        {
+          "id": "PC003",
+          "name": "GeForce RTX 4090",
+          "brand": "NVIDIA",
+          "price": 1599.0,
+          "type": "GPU",
+          "specs": "24GB GDDR6X, Ada Lovelace",
+          "rating": 4.9,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/geforce-rtx-4090-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Geforce Rtx 4090 on a plain white background"
+          }
+        },
+        {
+          "id": "PC004",
+          "name": "Radeon RX 7900 XTX",
+          "brand": "AMD",
+          "price": 949.0,
+          "type": "GPU",
+          "specs": "24GB GDDR6, RDNA 3",
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/radeon-rx-7900-xtx-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Radeon Rx 7900 Xtx on a plain white background"
+          }
+        },
+        {
+          "id": "PC005",
+          "name": "Trident Z5 RGB 32GB",
+          "brand": "G.Skill",
+          "price": 129.99,
+          "type": "RAM",
+          "specs": "DDR5-6000 CL30, 2x16GB",
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/trident-z5-rgb-32gb-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Trident Z5 Rgb 32Gb on a plain white background"
+          }
+        },
+        {
+          "id": "PC006",
+          "name": "990 Pro 2TB",
+          "brand": "Samsung",
+          "price": 179.99,
+          "type": "Storage",
+          "specs": "NVMe PCIe 4.0 SSD, 7450MB/s read",
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/990-pro-2tb-white-bg.jpg",
+            "background": "white",
+            "alt_text": "990 Pro 2Tb on a plain white background"
+          }
+        },
+        {
+          "id": "PC007",
+          "name": "ROG Maximus Z790 Hero",
+          "brand": "ASUS",
+          "price": 629.99,
+          "type": "Motherboard",
+          "specs": "LGA1700, DDR5, PCIe 5.0",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/rog-maximus-z790-hero-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Rog Maximus Z790 Hero on a plain white background"
+          }
+        },
+        {
+          "id": "PC008",
+          "name": "RM850x",
+          "brand": "Corsair",
+          "price": 149.99,
+          "type": "PSU",
+          "specs": "850W, 80+ Gold, fully modular",
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/rm850x-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Rm850X on a plain white background"
+          }
+        },
+        {
+          "id": "PC009",
+          "name": "NH-D15",
+          "brand": "Noctua",
+          "price": 109.95,
+          "type": "CPU Cooler",
+          "specs": "Dual-tower air cooler, 165W TDP",
+          "rating": 4.9,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/nh-d15-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Nh D15 on a plain white background"
+          }
+        },
+        {
+          "id": "PC010",
+          "name": "H150i Elite LCD",
+          "brand": "Corsair",
+          "price": 279.99,
+          "type": "AIO Cooler",
+          "specs": "360mm radiator with LCD display",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/h150i-elite-lcd-white-bg.jpg",
+            "background": "white",
+            "alt_text": "H150I Elite Lcd on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "name": "Gaming",
+      "slug": "gaming",
+      "href": "#",
+      "description": "Gaming consoles, accessories, and peripherals",
+      "icon": {
+        "url": "https://images.example.com/products/icons/gaming-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Gaming on a plain white background"
+      },
+      "products": [
+        {
+          "id": "GM001",
+          "name": "PlayStation 5 Slim",
+          "brand": "Sony",
+          "price": 499.99,
+          "type": "Console",
+          "specs": "1TB SSD, 4K120 support",
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/playstation-5-slim-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Playstation 5 Slim on a plain white background"
+          }
+        },
+        {
+          "id": "GM002",
+          "name": "Xbox Series X",
+          "brand": "Microsoft",
+          "price": 499.99,
+          "type": "Console",
+          "specs": "1TB SSD, 4K120 support",
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/xbox-series-x-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Xbox Series X on a plain white background"
+          }
+        },
+        {
+          "id": "GM003",
+          "name": "Nintendo Switch OLED",
+          "brand": "Nintendo",
+          "price": 349.99,
+          "type": "Console",
+          "specs": "7-inch OLED screen, 64GB storage",
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/nintendo-switch-oled-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Nintendo Switch Oled on a plain white background"
+          }
+        },
+        {
+          "id": "GM004",
+          "name": "DualSense Edge",
+          "brand": "Sony",
+          "price": 199.99,
+          "type": "Controller",
+          "specs": "Customizable pro controller",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/dualsense-edge-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Dualsense Edge on a plain white background"
+          }
+        },
+        {
+          "id": "GM005",
+          "name": "Xbox Elite Series 2 Core",
+          "brand": "Microsoft",
+          "price": 139.99,
+          "type": "Controller",
+          "specs": "Adjustable tension thumbsticks",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/xbox-elite-series-2-core-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Xbox Elite Series 2 Core on a plain white background"
+          }
+        },
+        {
+          "id": "GM006",
+          "name": "G Pro X Superlight 2",
+          "brand": "Logitech",
+          "price": 159.99,
+          "type": "Gaming Mouse",
+          "specs": "60g wireless, 32K DPI sensor",
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/g-pro-x-superlight-2-white-bg.jpg",
+            "background": "white",
+            "alt_text": "G Pro X Superlight 2 on a plain white background"
+          }
+        },
+        {
+          "id": "GM007",
+          "name": "BlackWidow V4 Pro",
+          "brand": "Razer",
+          "price": 229.99,
+          "type": "Gaming Keyboard",
+          "specs": "Mechanical, hot-swappable switches",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/blackwidow-v4-pro-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Blackwidow V4 Pro on a plain white background"
+          }
+        },
+        {
+          "id": "GM008",
+          "name": "Odyssey OLED G8",
+          "brand": "Samsung",
+          "price": 1399.99,
+          "type": "Gaming Monitor",
+          "specs": "34-inch curved OLED, 175Hz",
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/odyssey-oled-g8-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Odyssey Oled G8 on a plain white background"
+          }
+        },
+        {
+          "id": "GM009",
+          "name": "HyperX Cloud III",
+          "brand": "HyperX",
+          "price": 99.99,
+          "type": "Gaming Headset",
+          "specs": "Wired, 53mm drivers",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/hyperx-cloud-iii-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Hyperx Cloud Iii on a plain white background"
+          }
+        },
+        {
+          "id": "GM010",
+          "name": "Quest 3",
+          "brand": "Meta",
+          "price": 499.99,
+          "type": "VR Headset",
+          "specs": "Mixed reality, 512GB storage",
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/quest-3-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Quest 3 on a plain white background"
+          }
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "name": "Accessories",
+      "slug": "accessories",
+      "href": "#",
+      "description": "Cables, chargers, cases, and other tech accessories",
+      "icon": {
+        "url": "https://images.example.com/products/icons/accessories-white-bg.jpg",
+        "background": "white",
+        "alt_text": "Icons/Accessories on a plain white background"
+      },
+      "products": [
+        {
+          "id": "AC001",
+          "name": "20W USB-C Power Adapter",
+          "brand": "Apple",
+          "price": 19.0,
+          "type": "Charger",
+          "specs": "20W fast charging, USB-C",
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/20w-usb-c-power-adapter-white-bg.jpg",
+            "background": "white",
+            "alt_text": "20W Usb C Power Adapter on a plain white background"
+          }
+        },
+        {
+          "id": "AC002",
+          "name": "MagSafe Charger",
+          "brand": "Apple",
+          "price": 39.0,
+          "type": "Wireless Charger",
+          "specs": "15W MagSafe wireless charging",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/magsafe-charger-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Magsafe Charger on a plain white background"
+          }
+        },
+        {
+          "id": "AC003",
+          "name": "Anker 737 Power Bank",
+          "brand": "Anker",
+          "price": 89.99,
+          "type": "Power Bank",
+          "specs": "24000mAh, 140W output",
+          "rating": 4.7,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/anker-737-power-bank-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Anker 737 Power Bank on a plain white background"
+          }
+        },
+        {
+          "id": "AC004",
+          "name": "USB-C to Lightning Cable",
+          "brand": "Apple",
+          "price": 19.0,
+          "type": "Cable",
+          "specs": "1m braided cable",
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/usb-c-to-lightning-cable-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Usb C To Lightning Cable on a plain white background"
+          }
+        },
+        {
+          "id": "AC005",
+          "name": "Clear Case with MagSafe",
+          "brand": "Apple",
+          "price": 49.0,
+          "type": "Phone Case",
+          "specs": "Shockproof clear case",
+          "rating": 4.3,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/clear-case-with-magsafe-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Clear Case With Magsafe on a plain white background"
+          }
+        },
+        {
+          "id": "AC006",
+          "name": "Tempered Glass Screen Protector",
+          "brand": "ZAGG",
+          "price": 24.99,
+          "type": "Screen Protector",
+          "specs": "9H hardness, anti-fingerprint",
+          "rating": 4.2,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/tempered-glass-screen-protector-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Tempered Glass Screen Protector on a plain white background"
+          }
+        },
+        {
+          "id": "AC007",
+          "name": "Universal Laptop Stand",
+          "brand": "Rain Design",
+          "price": 59.99,
+          "type": "Laptop Stand",
+          "specs": "Adjustable aluminum stand",
+          "rating": 4.6,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/universal-laptop-stand-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Universal Laptop Stand on a plain white background"
+          }
+        },
+        {
+          "id": "AC008",
+          "name": "Anker 6-in-1 USB-C Hub",
+          "brand": "Anker",
+          "price": 49.99,
+          "type": "USB Hub",
+          "specs": "HDMI, USB-A, SD card reader",
+          "rating": 4.5,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/anker-6-in-1-usb-c-hub-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Anker 6 In 1 Usb C Hub on a plain white background"
+          }
+        },
+        {
+          "id": "AC009",
+          "name": "Logitech MX Master 3S",
+          "brand": "Logitech",
+          "price": 99.99,
+          "type": "Mouse",
+          "specs": "Wireless, 8K DPI, quiet clicks",
+          "rating": 4.8,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/logitech-mx-master-3s-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Logitech Mx Master 3S on a plain white background"
+          }
+        },
+        {
+          "id": "AC010",
+          "name": "Belkin 3-in-1 Wireless Charger",
+          "brand": "Belkin",
+          "price": 149.99,
+          "type": "Wireless Charger",
+          "specs": "Charges phone, watch, earbuds",
+          "rating": 4.4,
+          "currency": "USD",
+          "in_stock": true,
+          "image": {
+            "url": "https://images.example.com/products/belkin-3-in-1-wireless-charger-white-bg.jpg",
+            "background": "white",
+            "alt_text": "Belkin 3 In 1 Wireless Charger on a plain white background"
+          }
+        }
+      ]
+    }
+  ]
+}

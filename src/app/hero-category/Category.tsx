@@ -56,7 +56,6 @@ const categories = [
 export default function Hero_Category() {
   return (
     <section className="lg:px-12 lg:py-7">
-      {/* Heading */}
       <div className="flex items-center justify-between">
         <h2 className="text-2xl font-bold">
           Shop by Category
@@ -75,7 +74,6 @@ export default function Hero_Category() {
         </div>
       </div>
 
-      {/* Categories */}
       <div className="mt-6 overflow-x-auto hide-scrollbar">
         <div className="flex gap-4 w-max">
           {categories.map((item) => (

@@ -1,19 +1,22 @@
 import Image from "next/image";
+import Link from "next/link";
 
-import { House, UserRound, ShoppingCart } from "lucide-react";
+import { House, UserRound, ShoppingCart,  } from "lucide-react";
 
 export default function Navbar() {
     return (
         <nav className="hidden lg:flex items-center justify-between bg-blue-800 px-6 py-3 text-white border-b border-white/20">
             <div className="flex flex-1 items-center gap-5">
-                <Image
-                    src="/images/logo.webp"
-                    alt="Logo"
-                    width={120}
-                    height={40}
-                    priority
-                />
+                <Link href="/">
+                    <Image
 
+                        src="/images/logo.webp"
+                        alt="Logo"
+                        width={120}
+                        height={40}
+                        priority
+                    />
+                </Link>
                 <input
                     type="text"
                     placeholder="Search products..."

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
-
+import Navbar from "./components/layout/Navbar";
+import Category from "./components/layout/Category";
+ 
 
 
 
@@ -23,7 +25,11 @@ export default function RootLayout({
       lang="en"
       className={inter.className}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Navbar/>
+        <Category/>
+        {children}
+        </body>
     </html>
   );
 }

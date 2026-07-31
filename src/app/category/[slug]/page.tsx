@@ -50,14 +50,19 @@ export default async function CategoryPage({ params }: PageProps) {
             <div className="flex flex-row  overflow-x-auto  gap-5 p-3.5 hide-scrollbar">
                 {category.products.map((product) => (
                     <div key={product.id} className="w-52 shrink-0 bg-sky-50 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl  ">
-                        <p className="text-[11px] text-right p-1.5">⭐{product.rating}</p>
-                        
-                        <Image src={`/products/${slug}.webp`} alt="" height={350} width={350} className=" w-full h-auto " />
-                        <div className="flex flex-col text-left  bg-white px-3 py-4 text-nowrap">
-                            <p className="text-sm font-semibold px-1 opacity-75">{product.name}</p>
-                            <p className="text-base font-bold px-1">Rs {product.price}</p>
-                            <p className="text-[10px] bg-blue-800 text-white w-fit  h-auto rounded-2xl m-1 p-1 flex flex-row gap-1 "><Zap height={12} width={12} className="" /> Get in same day</p>
-                        </div>
+                        <Link href={`/category/${slug}/${product.id}`}>
+
+                            <p className="text-[11px] text-right p-1.5">⭐{product.rating}</p>
+
+                            <Image src={`/products/${slug}.webp`} alt="" height={350} width={350} className=" w-full h-auto " />
+                            <div className="flex flex-col text-left  bg-white px-3 py-4 text-nowrap">
+                                <p className="text-sm font-semibold px-1 opacity-75">{product.name}</p>
+                                <p className="text-base font-bold px-1">Rs {product.price}</p>
+                                <p className="text-[10px] bg-blue-800 text-white w-fit  h-auto rounded-2xl m-1 p-1 flex flex-row gap-1 "><Zap height={12} width={12} className="" /> Get in same day</p>
+                            </div>
+
+
+                        </Link>
                     </div>
 
                 ))}
@@ -67,7 +72,7 @@ export default async function CategoryPage({ params }: PageProps) {
             </div>
 
 
-            
+
         </div>
     );
 }

@@ -3,96 +3,109 @@ import Link from "next/link";
 
 export default function Category() {
     return (
-        <div className="hidden lg:flex items-center bg-blue-800 text-white text-[15px] px-10">
-            <div className="group/category relative">
-                <button className="flex items-center gap-2 shrink-0 h-full">
+        <div className="flex items-center h-12 lg:h-14 bg-blue-800 text-white text-[15px] lg:px-3 lg:px-10">
+            <div className="group/category relative shrink-0">
+                <button className=" hidden lg:flex h-full items-center gap-2">
                     <Menu className="h-5 w-5" />
-                    All Categories
+                    <span className="hidden sm:inline">All Categories</span>
                 </button>
 
-                <div className="absolute left-0 top-full mt-2 w-64 bg-white text-black shadow-lg z-50 opacity-0 invisible transition-all duration-200 group-hover/category:opacity-100 group-hover/category:visible">
-                    <div className="p-4 flex flex-col gap-6">
-                        <div className="relative group/item flex justify-between items-center hover:opacity-100">
-                            <Link href="#"  className="hover:px-2 transition-all duration-200">Mobile Phones</Link>
-                            <ChevronRight />
+                <div className="absolute left-0 top-full mt-1 w-64 bg-white text-black shadow-lg z-50 opacity-0 invisible transition-all duration-200 group-hover/category:opacity-100 group-hover/category:visible">
+                    <div className="flex flex-col gap-5 p-4">
+                        <div className="relative group/item flex items-center justify-between">
+                            <Link
+                                href="/category/mobile-phones"
+                                className="transition-all duration-200 hover:pl-2"
+                            >
+                                Mobile Phones
+                            </Link>
 
-                            <div className="absolute left-full top-0 w-fit bg-white shadow-lg opacity-0  transition-all duration-200 group-hover/item:opacity-100  px-6">
-                                <div className="flex flex-row justify-between">
-                                    <div className="flex flex-col p-4 gap-6 bg-white ">
+                            <ChevronRight size={18} />
+
+                            <div className="hidden lg:flex absolute left-full top-0 bg-white shadow-lg opacity-0 invisible transition-all duration-200 group-hover/item:opacity-100 group-hover/item:visible">
+                                <div className="flex">
+                                    <div className="flex flex-col gap-5 p-5 min-w-[180px]">
                                         <h2 className="font-semibold">Brand</h2>
-                                        <Link href="#" className="hover:text-blue-800">Realme</Link>
-                                        <Link href="#" className="hover:text-blue-800" >Apple</Link>
-                                        <Link href="#" className="hover:text-blue-800">Oppo</Link>
-                                        <Link href="#" className="hover:text-blue-800">Poco</Link>
-                                        <Link href="#" className="hover:text-blue-800">Xiaomi</Link>
-                                        <Link href="#" className="hover:text-blue-800">Honor</Link>
-                                        <Link href="#" className="hover:text-blue-800">One Plus</Link>
-                                        <Link href="#" className="hover:text-blue-800">Samsung</Link>
+
+                                        <Link href="#">Realme</Link>
+                                        <Link href="#">Apple</Link>
+                                        <Link href="#">Oppo</Link>
+                                        <Link href="#">Poco</Link>
+                                        <Link href="#">Xiaomi</Link>
+                                        <Link href="#">Honor</Link>
+                                        <Link href="#">OnePlus</Link>
+                                        <Link href="#">Samsung</Link>
                                     </div>
-                                    <div className="flex flex-col p-4 gap-6 text-nowrap w-fit ">
-                                        <h2 className="font-semibold">Shop By Budget</h2>
-                                        <Link href="#" className="hover:text-blue-800">Phones under 20000</Link>
-                                        <Link href="#" className="hover:text-blue-800">Phones under 25000</Link>
-                                        <Link href="#" className="hover:text-blue-800">Phones under 30000</Link>
-                                        <Link href="#" className="hover:text-blue-800">Phones under 35000</Link>
-                                        <Link href="#" className="hover:text-blue-800">Phones under 40000</Link>
-                                        <Link href="#" className="hover:text-blue-800">Phones under 45000</Link>
-                                        <Link href="#" className="hover:text-blue-800">Phones under 50000</Link>
-                                        <Link href="#" className="hover:text-blue-800">Phones under 55000</Link>
+
+                                    <div className="flex flex-col gap-5 p-5 whitespace-nowrap">
+                                        <h2 className="font-semibold">
+                                            Shop By Budget
+                                        </h2>
+
+                                        <Link href="#">Phones under 20,000</Link>
+                                        <Link href="#">Phones under 25,000</Link>
+                                        <Link href="#">Phones under 30,000</Link>
+                                        <Link href="#">Phones under 35,000</Link>
+                                        <Link href="#">Phones under 40,000</Link>
+                                        <Link href="#">Phones under 45,000</Link>
+                                        <Link href="#">Phones under 50,000</Link>
+                                        <Link href="#">Phones under 55,000</Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="/category/laptops" className="hover:px-2 transition-all duration-200">Laptops</Link>
-                            <ChevronRight />
+                        <div className="flex items-center justify-between">
+                            <Link href="/category/laptops">Laptops</Link>
+                            <ChevronRight size={18} />
                         </div>
 
-                        <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="#" className="hover:px-2 transition-all duration-200">Earbuds</Link>
-                            <ChevronRight />
+                        <div className="flex items-center justify-between">
+                            <Link href="/category/earbuds">Earbuds</Link>
+                            <ChevronRight size={18} />
                         </div>
 
-                        <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="#" className="hover:px-2 transition-all duration-200">Tablets</Link>
-                            <ChevronRight />
-                        </div> 
-
-                        <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="#" className="hover:px-2 transition-all duration-200">Speakers</Link>
-                            <ChevronRight />
+                        <div className="flex items-center justify-between">
+                            <Link href="/category/tablets">Tablets</Link>
+                            <ChevronRight size={18} />
                         </div>
 
-                        <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="#" className="hover:px-2 transition-all duration-200">Smartwatches</Link>
-                            <ChevronRight />
+                        <div className="flex items-center justify-between">
+                            <Link href="/category/speakers">Speakers</Link>
+                            <ChevronRight size={18} />
                         </div>
 
-                        <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="#" className="hover:px-2 transition-all duration-200">PC Build</Link>
-                            <ChevronRight />
+                        <div className="flex items-center justify-between">
+                            <Link href="/category/smartwatches">Smartwatches</Link>
+                            <ChevronRight size={18} />
                         </div>
 
-                        <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="#" className="hover:px-2 transition-all duration-200">PC Components</Link>
-                            <ChevronRight />
+                        <div className="flex items-center justify-between">
+                            <Link href="/category/pc-build">PC Build</Link>
+                            <ChevronRight size={18} />
                         </div>
 
-                        <div className="flex justify-between items-center hover:opacity-60">
-                            <Link href="#" className="hover:px-2 transition-all duration-200">Accessories</Link>
-                            <ChevronRight />
+                        <div className="flex items-center justify-between">
+                            <Link href="/category/pc-components">PC Components</Link>
+                            <ChevronRight size={18} />
+                        </div>
+
+                        <div className="flex items-center justify-between">
+                            <Link href="/category/accessories">Accessories</Link>
+                            <ChevronRight size={18} />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="ml-8 flex-1 overflow-x-auto hide-scrollbar">
-                <div className="flex w-max items-center gap-9 whitespace-nowrap">
-                    <button className="flex items-center gap-1.5 bg-amber-400 p-2 shrink-0">
-                        <Cpu className="h-5 w-5" />
-                        Build Your PC
-                        <span className="bg-amber-300 px-1 text-[10px]">New</span>
+            <div className="ml-4 flex-1 overflow-x-auto hide-scrollbar">
+                <div className="flex items-center gap-6 whitespace-nowrap w-max h-full">
+                    <button className="flex items-center gap-2 bg-amber-400 text-black rounded h-9 px-3 shrink-0">
+                        <Cpu className="h-4 w-4" />
+                        <span>Build Your PC</span>
+                        <span className="bg-yellow-300 text-[10px] px-1 rounded">
+                            New
+                        </span>
                     </button>
 
                     <Link href="/category/mobile-phones">Mobile Phones</Link>
@@ -102,7 +115,7 @@ export default function Category() {
                     <Link href="/category/speakers">Speakers</Link>
                     <Link href="/category/smartwatches">Smartwatches</Link>
                     <Link href="/category/pc-build">PC Build</Link>
-                    <Link href="/category/pc-build">PC Components</Link>
+                    <Link href="/category/pc-components">PC Components</Link>
                     <Link href="/category/gaming">Gaming</Link>
                     <Link href="/category/accessories">Accessories</Link>
                 </div>

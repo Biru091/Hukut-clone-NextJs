@@ -19,7 +19,7 @@ export default function TopHero1() {
 
     return (
         <div className="w-full flex flex-col lg:flex-row gap-4 lg:px-12 py-4">
-            <div className="w-full lg:w-2/4 lg:h-[35vh] lg:min-h-[280px]">
+            <div className="w-full lg:w-2/4 lg:h-[40vh] lg:min-h-[280px]">
                 <Swiper
                     modules={[Autoplay, Pagination, Navigation]}
                     autoplay={{ delay: 2000, disableOnInteraction: false }}
@@ -27,7 +27,7 @@ export default function TopHero1() {
                     speed={800}
                     pagination={{ clickable: true }}
                     navigation={false}
-                    className="w-full h-auto transition-all duration-100"
+                    className="w-full h-full transition-all duration-100"
                 >
                     {images.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -37,7 +37,7 @@ export default function TopHero1() {
                                 width={1200}
                                 height={600}
                                 priority={index === 0}
-                                className="w-full h-auto rounded-2xl object-cover px-1.5"
+                                className="w-full h-full rounded-2xl object-cover px-1.5"
                             />
                         </SwiperSlide>
                     ))}

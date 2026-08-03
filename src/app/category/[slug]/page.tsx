@@ -57,7 +57,7 @@ export default async function CategoryPage({ params }: PageProps) {
                             <Image src={`/products/${slug}.webp`} alt="" height={350} width={350} className=" w-full h-auto " />
                             <div className="flex flex-col text-left  bg-white px-3 py-4 text-nowrap">
                                 <p className="text-sm font-semibold px-1 opacity-75">{product.name}</p>
-                                <p className="text-base font-bold px-1">Rs {product.price}</p>
+                                <p className="text-base font-bold px-1">$ {product.price}</p>
                                 <p className="text-[10px] bg-blue-800 text-white w-fit  h-auto rounded-2xl m-1 p-1 flex flex-row gap-1 "><Zap height={12} width={12} className="" /> Get in same day</p>
                             </div>
 

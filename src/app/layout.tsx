@@ -3,9 +3,9 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "./components/layout/Navbar";
 import Category from "./components/layout/Category";
- 
 
 
+import { CartProvider } from "./lib/cartContext";
 
 
 export const metadata: Metadata = {
@@ -26,10 +26,12 @@ export default function RootLayout({
       className={inter.className}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar/>
-        <Category/>
-        {children}
-        </body>
+        <CartProvider>
+          <Navbar />
+          <Category />
+          {children}
+        </CartProvider>
+      </body>
     </html>
   );
 }

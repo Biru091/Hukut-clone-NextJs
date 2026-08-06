@@ -29,6 +29,7 @@ export default function Navbar() {
             </div>
 
             <div className="hidden  lg:ml-6 lg:flex items-center gap-6">
+             <Link href="/store_pickup"> 
                 <div className="flex items-center gap-2 cursor-pointer">
                     <House className="h-6 w-6" />
 
@@ -37,7 +38,7 @@ export default function Navbar() {
                         <p className="text-[10px] opacity-70">Choose Loc. or delivery</p>
                     </div>
                 </div>
-
+              </Link> 
                 <div className="h-8 w-px bg-white/30"></div>
 
                 <div className="   lg:flex items-center gap-2 cursor-pointer">
@@ -49,8 +50,13 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className=" flex items-center gap-2 cursor-pointer">
-                    <ShoppingCart className="h-6 w-6" />
-                    <p className="text-[11px]">My Cart</p>
+                    <ShoppingCart className="h-6 w-6 relative"  />
+                    <h1 className="top-4 right-17 bg-red-600 text-white px-1 py-1 text-[7px] rounded-4xl absolute"></h1>
+                    <Link href="/cart">
+                        <p className="text-[11px]">My Cart</p>
+
+                    </Link>
+
                 </div>
             </div>
         </nav>

@@ -13,6 +13,8 @@ import { Truck } from 'lucide-react';
 import Link from "next/link";
 import { ChevronRight } from 'lucide-react';
 import { useCart } from "@/app/lib/cartContext";
+import { useRouter } from "next/navigation";
+
 
 import {
     Palette,
@@ -85,9 +87,10 @@ type Props = {
 };
 
 export default function ProductDetailClient({ product, category, }: Props) {
+    const router = useRouter();
     const { addToCart } = useCart();
 
-    const specifications = [
+const specifications = [
         { label: "Brand", icon: Building2, value: product.brand },
         { label: "Color", icon: Palette, value: product.color },
         { label: "Display", icon: Monitor, value: product.display },
@@ -238,15 +241,15 @@ export default function ProductDetailClient({ product, category, }: Props) {
                                 return (
                                     <div
                                         key={spec.label}
-                                        className="flex items-center gap-1 "
+                                        className="flex items-center gap-1   "
                                     >
                                         <div className="flex h-10 w-10 items-center justify-center">
                                             <Icon size={20} />
                                         </div>
 
-                                        <div>
+                                        <div >
                                             <p className="text-[13px] text-gray-500">{spec.label}</p>
-                                            <p className="font-semibold text-[13px] text-gray-900 ">{spec.value}</p>
+                                            <p className="font-semibold text-[10px] text-gray-900 ">{spec.value}</p>
                                         </div>
                                     </div>
                                 );
@@ -304,7 +307,8 @@ export default function ProductDetailClient({ product, category, }: Props) {
 
                         </div>
                         <div className="flex flex-row w-full h-auto gap-2 items-center justify-center px-3 fixed bottom-0 left-0 right-0 bg-white border-t border-gray-300 py-2 lg:static">
-                            <button onClick={()=>addToCart(product.id)} className="bg-blue-700 text-white py-2 px-2 rounded-lg hover:bg-blue-900 transition-colors w-full h-auto text-center lg:cursor-pointer ">
+                            <button onClick={()=>{addToCart(product.id); 
+                                router.push("/cart")}} className="bg-blue-700 text-white py-2 px-2 rounded-lg hover:bg-blue-900 transition-colors w-full h-auto text-center lg:cursor-pointer ">
                                 Buy Now
                             </button>
                         </div>

@@ -7,7 +7,7 @@ import { House, UserRound, ShoppingCart,  } from "lucide-react";
 
 export default function Navbar() {
     return (
-        <nav className="px-3 lg:flex items-center justify-between bg-blue-800 lg:px-6 py-3 text-white border-b border-white/20">
+        <nav className="px-3 lg:flex items-center justify-between bg-blue-800 lg:px-6 py-3 text-white border-b border-white/20 ">
             <div className="flex flex-1 items-center gap-5">
                 <Menu className="h-11 w-11 lg:hidden" />
                 <Link href="/">

@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "./components/layout/Navbar";
 import Category from "./components/layout/Category";
-
+import Footer from "./components/layout/Footer";
 
 import { CartProvider } from "./lib/cartContext";
 
@@ -27,10 +27,15 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <CartProvider>
-          <Navbar />
-          <Category />
+          <div >
+            <Navbar />
+            <Category />
+
+          </div>
+          
           {children}
         </CartProvider>
+        <Footer/>
       </body>
     </html>
   );

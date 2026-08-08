@@ -18,7 +18,7 @@ export default function TopHero1() {
     ];
 
     return (
-        <div className="w-full flex flex-col lg:flex-row gap-4 lg:px-12 py-4">
+        <div className="w-full flex flex-col lg:flex-row gap-4 lg:px-12 py-9">
             <div className="w-full lg:w-2/4 lg:h-[40vh] lg:min-h-[280px]">
                 <Swiper
                     modules={[Autoplay, Pagination, Navigation]}
@@ -27,7 +27,7 @@ export default function TopHero1() {
                     speed={800}
                     pagination={{ clickable: true }}
                     navigation={false}
-                    className="w-full h-full transition-all duration-100"
+                    className="w-full h-full"
                 >
                     {images.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -36,14 +36,13 @@ export default function TopHero1() {
                                 alt={`Banner ${index + 1}`}
                                 width={1200}
                                 height={600}
-                                priority={index === 0}
-                                className="w-full h-full rounded-2xl object-cover px-1.5"
+                                priority={index === 1}
+                                className="w-full h-full rounded-2xl object-cover px-1.5 "
                             />
                         </SwiperSlide>
                     ))}
                 </Swiper>
             </div>
-
             <div className="w-full  lg:w-1/2 flex flex-row lg:h-[40vh] lg:min-h-[280px] px-3 gap-1 lg:justify-between">
                 <Image
                     src="/hero/home6.jpg1784537757247"
